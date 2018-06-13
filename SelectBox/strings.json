@@ -1,0 +1,214 @@
+{
+  "name": {
+    "en": "Select Box",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_type": {
+    "en": "Type",
+    "ru": ""
+  },
+  "props_type_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_type_custom": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "props_type_native": {
+    "en": "Native",
+    "ru": ""
+  },
+  "props_label": {
+    "en": "Label",
+    "ru": ""
+  },
+  "props_label_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_placeholder": {
+    "en": "Placeholder",
+    "ru": ""
+  },
+  "props_placeholder_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_disabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_full_width": {
+    "en": "Full width",
+    "ru": ""
+  },
+  "props_full_width_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_dense": {
+    "en": "Dense",
+    "ru": ""
+  },
+  "props_dense_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_message": {
+    "en": "Message",
+    "ru": ""
+  },
+  "props_message_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition": {
+    "en": "Label Position",
+    "ru": ""
+  },
+  "props_labelPosition_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition_top": {
+    "en": "Top",
+    "ru": ""
+  },
+  "props_labelPosition_side": {
+    "en": "Side",
+    "ru": ""
+  },
+  "props_tooltip": {
+    "en": "Tooltip",
+    "ru": ""
+  },
+  "props_tooltip_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_options": {
+    "en": "Options",
+    "ru": ""
+  },
+  "props_options_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_itemValue": {
+    "en": "Value",
+    "ru": ""
+  },
+  "props_itemValue_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "props_text_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_itemDisabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_itemDisabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_defaultValue": {
+    "en": "Default value",
+    "ru": ""
+  },
+  "props_defaultValue_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_reverse": {
+    "en": "Reverse options order",
+    "ru": ""
+  },
+  "props_reverse_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_bordered": {
+    "en": "Bordered",
+    "ru": ""
+  },
+  "props_bordered_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme_neutral": {
+    "en": "Neutral",
+    "ru": ""
+  },
+  "props_colorScheme_error": {
+    "en": "Error",
+    "ru": ""
+  },
+  "props_colorScheme_success": {
+    "en": "Success",
+    "ru": ""
+  },
+  "props_onChange": {
+    "en": "Change",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Updates",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_value": {
+    "en": "Value",
+    "ru": ""
+  },
+  "state_value_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": ""
+  },
+  "prop_group_data": {
+    "en": "Data",
+    "ru": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  }
+}

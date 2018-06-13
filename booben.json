@@ -1,0 +1,176 @@
+{
+  "namespace": "Reactackle",
+  "globalStyle": true,
+  "containerStyle": {
+    "height": "100%",
+    "min-height": "100vh",
+    "width": "100vw",
+    "min-width": "0"
+  },
+  "loaders": {
+    "\\.jsx?$": [
+      {
+        "loader": "babel-loader",
+        "options": {
+          "presets": ["es2015", "react"],
+          "plugins": ["transform-object-rest-spread", "styled-components"]
+        }
+      }
+    ],
+    "\\.scss$": [
+      "style-loader",
+      "css-loader",
+      "sass-loader"
+    ],
+    "\\.css$": [
+      "style-loader",
+      "css-loader"
+    ],
+    "\\.(jpe?g|png|gif|svg)$": [
+      {
+        "loader": "file-loader",
+        "options": {
+          "hash": "sha512",
+          "digest": "hex",
+          "name": "[name].[ext]"
+        }
+      },
+      {
+        "loader": "image-webpack-loader",
+        "options": {
+          "bypassOnDebug": true,
+          "optimizationLevel": "7",
+          "interlaced": "false"
+        }
+      }
+    ],
+    "\\.woff2?(\\?v=[0-9]\\.[0-9]\\.[0-9])?": [
+      {
+        "loader": "url-loader",
+        "options": {
+          "limit": "10000",
+          "mimetype": "application/font-woff"
+        }
+      }
+    ],
+    "\\.(ttf|eot|svg)(\\?v=[0-9]\\.[0-9]\\.[0-9])?$": [
+      "file-loader"
+    ]
+  },
+  "import": ["reactackle.scss"],
+  "componentGroups": {
+    "app": {
+      "textKey": "group_app",
+      "descriptionTextKey": "group_app_desc"
+    },
+    "blocks": {
+      "textKey": "group_blocks",
+      "descriptionTextKey": "group_blocks_desc"
+    },
+    "text": {
+      "textKey": "group_text",
+      "descriptionTextKey": "group_text_desc"
+    },
+    "controls": {
+      "textKey": "group_controls",
+      "descriptionTextKey": "group_controls_desc"
+    },
+    "navigation": {
+      "textKey": "group_navigation",
+      "descriptionTextKey": "group_navigation_desc"
+    },
+    "media": {
+      "textKey": "group_media",
+      "descriptionTextKey": "group_media_desc"
+    },
+
+    "card": {
+      "textKey": "group_card",
+      "descriptionTextKey": "group_card_desc"
+    },
+    "header": {
+      "textKey": "group_header",
+      "descriptionTextKey": "group_header_desc"
+    },
+    "sidebar": {
+      "textKey": "group_sidebar",
+      "descriptionTextKey": "group_sidebar_desc"
+    }
+  },
+  "strings": {
+    "group_app": {
+      "en": "App",
+      "ru": "Приложение"
+    },
+    "group_app_desc": {
+      "en": "",
+      "ru": ""
+    },
+    "group_blocks": {
+      "en": "Blocks",
+      "ru": "Блоки"
+    },
+    "group_blocks_desc": {
+      "en": "",
+      "ru": ""
+    },
+    "group_text": {
+      "en": "Text",
+      "ru": "Блоки"
+    },
+    "group_text_desc": {
+      "en": "",
+      "ru": ""
+    },
+    "group_controls": {
+      "en": "Controls",
+      "ru": ""
+    },
+    "group_controls_desc": {
+      "en": "",
+      "ru": ""
+    },
+    "group_navigation": {
+      "en": "Navigation",
+      "ru": ""
+    },
+    "group_navigation_desc": {
+      "en": "",
+      "ru": ""
+    },
+    "group_media": {
+      "en": "Media",
+      "ru": ""
+    },
+    "group_media_desc": {
+      "en": "",
+      "ru": ""
+    },
+
+    "group_card": {
+      "en": "Card elements",
+      "ru": "Карточка"
+    },
+    "group_card_desc": {
+      "en": "Card elements",
+      "ru": ""
+    },
+    "group_header": {
+      "en": "Header elements",
+      "ru": "Элементы хэдера"
+    },
+    "group_header_desc": {
+      "en": "Header elements",
+      "ru": "Элементы хэдера"
+    },
+    "group_sidebar": {
+      "en": "Sidebar elements",
+      "ru": ""
+    },
+    "group_sidebar_desc": {
+      "en": "Sidebar elements",
+      "ru": ""
+    }
+  },
+  "tags": {}
+}

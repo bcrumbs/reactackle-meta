@@ -1,0 +1,437 @@
+{
+  "displayName": "InputAutocomplete",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "controls",
+  "props": {
+    "maxOptionsVisible": {
+      "textKey": "props_maxOptionsVisible",
+      "descriptionTextKey": "props_maxOptionsVisible_desc",
+      "type": "int",
+      "group": "data",
+      "source": [
+        "static",
+        "data",
+        "state"
+      ],
+      "sourceConfigs": {
+        "static": {
+          "default": 5
+        }
+      }
+    },
+    "placeholder": {
+      "textKey": "props_placeholder",
+      "descriptionTextKey": "props_placeholder_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "type": {
+      "textKey": "props_type",
+      "descriptionTextKey": "props_type_desc",
+      "type": "oneOf",
+      "group": "data",
+      "options": [
+        { "value": "text", "textKey": "props_type_text" },
+        { "value": "password", "textKey": "props_type_password" },
+        { "value": "email", "textKey": "props_type_email" },
+        { "value": "tel", "textKey": "props_type_tel" },
+        { "value": "number", "textKey": "props_type_number" },
+        { "value": "url", "textKey": "props_type_url" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "text"
+        }
+      }
+    },
+    "autoComplete": {
+      "textKey": "props_autoComplete",
+      "descriptionTextKey": "props_autoComplete_desc",
+      "type": "bool",
+      "group": "data",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "bordered": {
+      "textKey": "props_bordered",
+      "descriptionTextKey": "props_bordered_desc",
+      "type": "bool",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "fullWidth": {
+      "textKey": "props_fullWidth",
+      "descriptionTextKey": "props_fullWidth_desc",
+      "type": "bool",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "dense": {
+      "textKey": "props_dense",
+      "descriptionTextKey": "props_dense_desc",
+      "type": "bool",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "symbolLimit": {
+      "textKey": "props_symbolLimit",
+      "descriptionTextKey": "props_symbolLimit_desc",
+      "type": "int",
+      "group": "data",
+      "min": 0,
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": 0
+        }
+      }
+    },
+    "disabled": {
+      "textKey": "props_disabled",
+      "descriptionTextKey": "props_disabled_desc",
+      "type": "bool",
+      "group": "state",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "label": {
+      "textKey": "props_label",
+      "descriptionTextKey": "props_label_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "message": {
+      "textKey": "props_message",
+      "descriptionTextKey": "props_message_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "clearingIcon": {
+      "textKey": "props_clearingIcon",
+      "descriptionTextKey": "props_clearingIcon_desc",
+      "type": "bool",
+      "group": "icon",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "iconOuter": {
+      "textKey": "props_iconOuter",
+      "descriptionTextKey": "props_iconOuter_desc",
+      "required": false,
+      "type": "icon",
+      "group": "icon",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": {},
+          "defaultEnabled": false
+        }
+      }
+    },
+    "iconInner": {
+      "textKey": "props_iconInner",
+      "descriptionTextKey": "props_iconInner_desc",
+      "required": false,
+      "type": "icon",
+      "group": "icon",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": {},
+          "defaultEnabled": false
+        }
+      }
+    },
+    "labelPosition": {
+      "textKey": "props_labelPosition",
+      "descriptionTextKey": "props_labelPosition_desc",
+      "type": "oneOf",
+      "group": "text",
+      "options": [
+        { "value": "top", "textKey": "props_labelPosition_top" },
+        { "value": "side", "textKey": "props_labelPosition_side" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "top"
+        }
+      }
+    },
+    "slidingLabel": {
+      "textKey": "props_slidingLabel",
+      "descriptionTextKey": "props_slidingLabel_desc",
+      "type": "bool",
+      "group": "text",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "scrollOnFocus": {
+      "textKey": "props_scrollOnFocus",
+      "descriptionTextKey": "props_scrollOnFocus_desc",
+      "type": "bool",
+      "group": "behavior",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "tooltip": {
+      "textKey": "props_tooltip",
+      "descriptionTextKey": "props_tooltip_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "colorScheme": {
+      "textKey": "props_colorScheme",
+      "descriptionTextKey": "props_colorScheme_desc",
+      "type": "oneOf",
+      "group": "style",
+      "options": [
+        { "value": "neutral", "textKey": "props_colorScheme_neutral" },
+        { "value": "error", "textKey": "props_colorScheme_error" },
+        { "value": "success", "textKey": "props_colorScheme_success" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "neutral"
+        }
+      }
+    },
+    "prefix": {
+      "textKey": "props_prefix",
+      "descriptionTextKey": "props_prefix_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "postfix": {
+      "textKey": "props_postfix",
+      "descriptionTextKey": "props_postfix_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "multiline": {
+      "textKey": "props_multiline",
+      "descriptionTextKey": "props_multiline_desc",
+      "type": "bool",
+      "group": "data",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "multilineRows": {
+      "textKey": "props_multilineRows",
+      "descriptionTextKey": "props_multilineRows_desc",
+      "type": "shape",
+      "group": "data",
+      "notNull": true,
+      "fields": {
+        "min": {
+          "textKey": "props_multilineRows_min",
+          "descriptionTextKey": "props_multilineRows_min_desc",
+          "required": false,
+          "type": "int",
+          "min": 0,
+          "source": ["static"],
+          "sourceConfigs": {
+            "static": {
+              "default": 2
+            }
+          }
+        },
+        "max": {
+          "textKey": "props_multilineRows_max",
+          "descriptionTextKey": "props_multilineRows_max_desc",
+          "required": false,
+          "type": "int",
+          "min": 0,
+          "source": ["static"],
+          "sourceConfigs": {
+            "static": {
+              "default": 4
+            }
+          }
+        }
+      },
+      "source": ["static"]
+    },
+    "onChange": {
+      "textKey": "props_onChange",
+      "descriptionTextKey": "props_onChange_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [
+            {
+              "textKey": "props_onChange_arg0",
+              "descriptionTextKey": "props_onChange_arg0_desc",
+              "type": "shape",
+              "notNull": true,
+              "fields": {
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "updateState": {
+            "value": {
+              "source": "arg",
+              "sourceData": {
+                "arg": 0,
+                "path": ["value"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "onFocus": {
+      "textKey": "props_onFocus",
+      "descriptionTextKey": "props_onFocus_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [],
+          "updateState": {
+            "focused": {
+              "source": "const",
+              "sourceData": {
+                "value": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "onBlur": {
+      "textKey": "props_onBlur",
+      "descriptionTextKey": "props_onBlur_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [],
+          "updateState": {
+            "focused": {
+              "source": "const",
+              "sourceData": {
+                "value": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "state": {
+    "value": {
+      "textKey": "state_value",
+      "descriptionTextKey": "state_value_desc",
+      "type": "string",
+      "initialValue": {
+        "source": "const",
+        "sourceData": {
+          "value": ""
+        }
+      }
+    },
+    "focused": {
+      "textKey": "state_focused",
+      "descriptionTextKey": "state_focused_desc",
+      "type": "bool",
+      "initialValue": {
+        "source": "const",
+        "sourceData": {
+          "value": false
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "state", "textKey": "prop_group_state" },
+    { "name": "data", "textKey": "prop_group_data" },
+    { "name": "text", "textKey": "prop_group_text" },
+    { "name": "icon", "textKey": "prop_group_icon" },
+    { "name": "style", "textKey": "prop_group_style" },
+    { "name": "behavior", "textKey": "prop_group_behavior" }
+  ]
+}

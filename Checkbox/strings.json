@@ -1,0 +1,90 @@
+{
+  "name": {
+    "ru": "Чекбокс",
+    "en": "Checkbox"
+  },
+  "description": {
+    "ru": "",
+    "en": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": ""
+  },
+  "props_defaultChecked": {
+    "en": "Initially checked",
+    "ru": ""
+  },
+  "props_defaultChecked_desc": {
+    "en": "Determines whether to check Checkbox by default",
+    "ru": ""
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_disabled_desc": {
+    "en": "Determines whether to disable checkbox",
+    "ru": ""
+  },
+  "props_label": {
+    "en": "Label",
+    "ru": ""
+  },
+  "props_label_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_component_props_item": {
+    "en": "COmponent",
+    "ru": ""
+  },
+  "props_component_props_item_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tooltip": {
+    "en": "Tooltip",
+    "ru": ""
+  },
+  "props_tooltip_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_errorMessage": {
+    "en": "Error message",
+    "ru": ""
+  },
+  "props_errorMessage_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange": {
+    "en": "Check",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Checked state",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_checked": {
+    "en": "Checked",
+    "ru": ""
+  },
+  "state_checked_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

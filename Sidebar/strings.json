@@ -1,0 +1,114 @@
+{
+  "name": {
+    "en": "Sidebar",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_haveToggleButton": {
+    "en": "Has Toggle Button",
+    "ru": ""
+  },
+  "props_haveToggleButton_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_toggleButtonText": {
+    "en": "Toggle Button Text",
+    "ru": ""
+  },
+  "props_toggleButtonText_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_toggleButtonText_value": {
+    "en": "Collapse",
+    "ru": ""
+  },
+  "props_expanded": {
+    "en": "Expanded",
+    "ru": ""
+  },
+  "props_expanded_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_right": {
+    "en": "Open from right",
+    "ru": ""
+  },
+  "props_right_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_autoCollapsing": {
+    "en": "Auto collapse",
+    "ru": ""
+  },
+  "props_autoCollapsing_desc": {
+    "en": "Allow to Sidebar to collapse on narrow screens. Requires haveToggleButton prop set to true",
+    "ru": ""
+  },
+  "layout_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "layout_default_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "layout_5050": {
+    "en": "50/50",
+    "ru": ""
+  },
+  "layout_5050_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_main": {
+    "en": "Main",
+    "ru": ""
+  },
+  "region_main_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_last": {
+    "en": "Footer",
+    "ru": ""
+  },
+  "region_last_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_top": {
+    "en": "Top",
+    "ru": ""
+  },
+  "region_top_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_bottom": {
+    "en": "Bottom",
+    "ru": ""
+  },
+  "region_bottom_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "prop_group_behavior": {
+    "en": "Behavior",
+    "ru": ""
+  },
+  "prop_group_toggle": {
+    "en": "Toggle button",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": ""
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "displayName": "Button",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "controls",
+  "props": {
+    "text": {
+      "textKey": "props_text",
+      "descriptionTextKey": "props_text_desc",
+      "group": "text",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": "props_text_default"
+        }
+      }
+    },
+    "alternateTitle": {
+      "textKey": "props_alternateTitle",
+      "descriptionTextKey": "props_alternateTitle_desc",
+      "group": "text",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": ""
+        }
+      }
+    },
+    "subtitle": {
+      "textKey": "props_subtitle",
+      "descriptionTextKey": "props_subtitle_desc",
+      "group": "text",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": ""
+        }
+      }
+    },
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "group": "style",
+      "type": "oneOf",
+      "options": [
+        { "value": "normal", "textKey": "props_size_normal" },
+        { "value": "small", "textKey": "props_size_small" },
+        { "value": "large", "textKey": "props_size_large" },
+        { "value": "inline", "textKey": "props_size_inline" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "normal"
+        }
+      }
+    },
+    "narrow": {
+      "textKey": "props_narrow",
+      "descriptionTextKey": "props_narrow_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "colorScheme": {
+      "textKey": "props_colorScheme",
+      "descriptionTextKey": "props_colorScheme_desc",
+      "group": "style",
+      "type": "oneOf",
+      "options": [
+        { "value": "primary", "textKey": "props_colorScheme_primary" },
+        { "value": "secondary", "textKey": "props_colorScheme_secondary" },
+        { "value": "alert", "textKey": "props_colorScheme_alert" },
+        { "value": "success", "textKey": "props_colorScheme_success" },
+        { "value": "warning", "textKey": "props_colorScheme_warning" },
+        { "value": "info", "textKey": "props_colorScheme_info" },
+        { "value": "flat", "textKey": "props_colorScheme_flat" },
+        { "value": "flatLight", "textKey": "props_colorScheme_flatLight" },
+        { "value": "white", "textKey": "props_colorScheme_white" },
+        { "value": "link", "textKey": "props_colorScheme_link" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "flat"
+        }
+      }
+    },
+    "outlined": {
+      "textKey": "props_outlined",
+      "descriptionTextKey": "props_outlined_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "radius": {
+      "textKey": "props_radius",
+      "descriptionTextKey": "props_radius_desc",
+      "group": "style",
+      "type": "oneOf",
+      "options": [
+        { "value": "none", "textKey": "props_radius_none" },
+        { "value": "default", "textKey": "props_radius_default" },
+        { "value": "rounded", "textKey": "props_radius_rounded" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      }
+    },
+    "raised": {
+      "textKey": "props_raised",
+      "descriptionTextKey": "props_raised_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "disabled": {
+      "textKey": "props_disabled",
+      "descriptionTextKey": "props_disabled_desc",
+      "group": "state",
+      "type": "bool",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "icon": {
+      "textKey": "props_icon",
+      "descriptionTextKey": "props_icon_desc",
+      "group": "icon",
+      "type": "component",
+      "source": ["designer", "static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": null
+        }
+      }
+    },
+    "iconPositionRight": {
+      "textKey": "props_iconPositionRight",
+      "descriptionTextKey": "props_iconPositionRight_desc",
+      "group": "icon",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "href": {
+      "textKey": "props_href",
+      "descriptionTextKey": "props_href_desc",
+      "group": "link",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "onPress": {
+      "textKey": "props_onPress",
+      "descriptionTextKey": "props_onPress_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": []
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "state", "textKey": "prop_group_state" },
+    { "name": "text", "textKey": "prop_group_text" },
+    { "name": "icon", "textKey": "prop_group_icon" },
+    { "name": "link", "textKey": "prop_group_link" },
+    { "name": "style", "textKey": "prop_group_style" }
+  ]
+}

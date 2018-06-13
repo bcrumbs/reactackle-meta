@@ -1,0 +1,494 @@
+{
+  "name": {
+    "en": "Dialog",
+    "ru": "Диалог"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": ""
+  },
+  "prop_group_content": {
+    "en": "Content",
+    "ru": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  },
+  "prop_group_behavior": {
+    "en": "Behavior",
+    "ru": ""
+  },
+  "prop_group_backdrop": {
+    "en": "Backdrop",
+    "ru": ""
+  },
+  "props_backdrop": {
+    "en": "Backdrop",
+    "ru": ""
+  },
+  "props_backdrop_desc": {
+    "en": "Determine whether to render backdrop",
+    "ru": ""
+  },
+  "props_scrollable": {
+    "en": "Scrollable",
+    "ru": ""
+  },
+  "props_scrollable_desc": {
+    "en": "If enabled, the content of the Dialog will be scrollable",
+    "ru": ""
+  },
+  "props_open": {
+    "en": "Is open",
+    "ru": ""
+  },
+  "props_open_desc": {
+    "en": "Determine whether to show dialog",
+    "ru": ""
+  },
+  "props_haveCloseButton": {
+    "en": "Has close button",
+    "ru": ""
+  },
+  "props_haveCloseButton_desc": {
+    "en": "Determine whether to render close button",
+    "ru": ""
+  },
+  "props_closeOnEscape": {
+    "en": "Close on escape",
+    "ru": ""
+  },
+  "props_closeOnEscape_desc": {
+    "en": "Determine whether to close dialog on ESC key down",
+    "ru": ""
+  },
+  "props_closeOnBackdropClick": {
+    "en": "Close on backdrop click",
+    "ru": ""
+  },
+  "props_closeOnBackdropClick_desc": {
+    "en": "Determine whether to close dialog on backdrop click",
+    "ru": ""
+  },
+  "props_title": {
+    "en": "Title",
+    "ru": ""
+  },
+  "props_title_desc": {
+    "en": "Title of the dialog",
+    "ru": ""
+  },
+  "props_subtitle": {
+    "en": "Subtitle",
+    "ru": ""
+  },
+  "props_subtitle_desc": {
+    "en": "Subtitle of the dialog",
+    "ru": ""
+  },
+  "props_buttons": {
+    "en": "Buttons",
+    "ru": ""
+  },
+  "props_buttons_desc": {
+    "en": "Buttons of the right side of the dialog",
+    "ru": ""
+  },
+  "props_buttonsLeft": {
+    "en": "Buttons",
+    "ru": ""
+  },
+  "props_buttonsLeft_desc": {
+    "en": "Buttons of the left side of the dialog",
+    "ru": ""
+  },
+  "props_minWidth": {
+    "en": "Minimal width",
+    "ru": ""
+  },
+  "props_minWidth_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_paddingSize": {
+    "en": "Padding",
+    "ru": "Отступы"
+  },
+  "props_paddingSize_desc": {
+    "en": "Padding size in the dialog",
+    "ru": ""
+  },
+  "props_paddingSize_default": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "props_paddingSize_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "props_fullWindowSize": {
+    "en": "Full window size",
+    "ru": "Во всё окно"
+  },
+  "props_fullWindowSize_desc": {
+    "en": "Determine whether to render dialog in full window size",
+    "ru": ""
+  },
+  "props_transparentBg": {
+    "en": "Transparent background",
+    "ru": "Полупрозрачный фон"
+  },
+  "props_transparentBg_desc": {
+    "en": "Determine whether to render dialog with transparent background",
+    "ru": ""
+  },
+  "props_dialogContentFlex": {
+    "en": "Display content in a flex mode",
+    "ru": ""
+  },
+  "props_dialogContentFlex_desc": {
+    "en": "Determine whether to display dialog content in flex mode",
+    "ru": ""
+  },
+  "props_onEnterKeyPress": {
+    "en": "Enter press",
+    "ru": "Нажатие Enter"
+  },
+  "props_onEnterKeyPress_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onClose": {
+    "en": "Dialog close",
+    "ru": "Закрытие диалога"
+  },
+  "props_onClose_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_button_text": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "types_button_text_desc": {
+    "en": "Define button's main text",
+    "ru": ""
+  },
+  "types_button_text_default": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "types_button_alternateTitle": {
+    "en": "Alternate title",
+    "ru": ""
+  },
+  "types_button_alternateTitle_desc": {
+    "en": "Define button's alternate text for the user, if he/she for some reason cannot view the component",
+    "ru": ""
+  },
+  "types_button_subtitle": {
+    "en": "Subtitle",
+    "ru": ""
+  },
+  "types_button_subtitle_desc": {
+    "en": "Define button's subtitle",
+    "ru": ""
+  },
+  "types_button_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "types_button_size_desc": {
+    "en": "Define button's size",
+    "ru": ""
+  },
+  "types_button_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "types_button_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "types_button_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "types_button_size_inline": {
+    "en": "Inline",
+    "ru": "Встроенная кнопка"
+  },
+  "types_button_narrow": {
+    "en": "Narrow",
+    "ru": ""
+  },
+  "types_button_narrow_desc": {
+    "en": "Narrow button has smaller horizontal paddings",
+    "ru": ""
+  },
+  "types_button_colorScheme": {
+    "en": "Color scheme",
+    "ru": "Цветовая схема"
+  },
+  "types_button_colorScheme_desc": {
+    "en": "Define button's color",
+    "ru": ""
+  },
+  "types_button_colorScheme_primary": {
+    "en": "Primary",
+    "ru": ""
+  },
+  "types_button_colorScheme_secondary": {
+    "en": "Secondary",
+    "ru": ""
+  },
+  "types_button_colorScheme_alert": {
+    "en": "Alert",
+    "ru": ""
+  },
+  "types_button_colorScheme_success": {
+    "en": "Success",
+    "ru": ""
+  },
+  "types_button_colorScheme_warning": {
+    "en": "Warning",
+    "ru": ""
+  },
+  "types_button_colorScheme_info": {
+    "en": "Info",
+    "ru": ""
+  },
+  "types_button_colorScheme_flat": {
+    "en": "Flat",
+    "ru": ""
+  },
+  "types_button_colorScheme_flatLight": {
+    "en": "Flat light",
+    "ru": ""
+  },
+  "types_button_colorScheme_white": {
+    "en": "White",
+    "ru": ""
+  },
+  "types_button_colorScheme_link": {
+    "en": "Link",
+    "ru": ""
+  },
+  "types_button_outlined": {
+    "en": "Outlined",
+    "ru": "Обводка"
+  },
+  "types_button_outlined_desc": {
+    "en": "Outlined button has border and transparent background",
+    "ru": ""
+  },
+  "types_button_radius": {
+    "en": "Radius",
+    "ru": "Радис"
+  },
+  "types_button_radius_desc": {
+    "en": "Define button's radius",
+    "ru": ""
+  },
+  "types_button_radius_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "types_button_radius_default": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "types_button_radius_rounded": {
+    "en": "Rounded",
+    "ru": "Скругление"
+  },
+  "types_button_raised": {
+    "en": "Raised",
+    "ru": "Приподнятая"
+  },
+  "types_button_raised_desc": {
+    "en": "Raised button has shadow",
+    "ru": ""
+  },
+  "types_button_disabled": {
+    "en": "Disabled",
+    "ru": "Неактивна"
+  },
+  "types_button_disabled_desc": {
+    "en": "Set disable to true if interaction with this button isn't available to user",
+    "ru": ""
+  },
+  "types_button_iconPositionRight": {
+    "en": "Icon on the right",
+    "ru": "Иконка справа"
+  },
+  "types_button_iconPositionRight_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_button_icon": {
+    "en": "Icon",
+    "ru": "Иконка"
+  },
+  "types_button_icon_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_button_href": {
+    "en": "Href",
+    "ru": ""
+  },
+  "types_button_href_desc": {
+    "en": "The URL to link to when the button is clicked",
+    "ru": ""
+  },
+  "types_button_onPress": {
+    "en": "Press",
+    "ru": ""
+  },
+  "types_button_onPress_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "icon_props_border": {
+    "en": "Border",
+    "ru": "Обводка"
+  },
+  "icon_props_border_desc": {
+    "en": "Turns on/off icon's border",
+    "ru": ""
+  },
+  "icon_props_borderWidth": {
+    "en": "Border Width",
+    "ru": "Ширина обводки"
+  },
+  "icon_props_borderWidth_desc": {
+    "en": "Set icon's border width",
+    "ru": ""
+  },
+  "icon_props_rounded": {
+    "en": "Rounded",
+    "ru": "Скругление"
+  },
+  "icon_props_rounded_desc": {
+    "en": "Make icon rounded",
+    "ru": ""
+  },
+  "icon_props_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "icon_props_size_desc": {
+    "en": "Set icon size",
+    "ru": ""
+  },
+  "icon_props_size_custom": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "icon_props_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "icon_props_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "icon_props_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "icon_props_size_xlarge": {
+    "en": "XLarge",
+    "ru": "Очень большой"
+  },
+  "icon_props_colorScheme": {
+    "en": "Color scheme",
+    "ru": "Цветовая схема"
+  },
+  "icon_props_colorScheme_desc": {
+    "en": "Set icon's color scheme",
+    "ru": ""
+  },
+  "icon_props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "icon_props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "icon_props_colorScheme_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "icon_props_color": {
+    "en": "Color",
+    "ru": "Цвет"
+  },
+  "icon_props_color_desc": {
+    "en": "Set exact icon's color",
+    "ru": ""
+  },
+  "icon_props_backgroundColor": {
+    "en": "Background color",
+    "ru": "Цвет фона"
+  },
+  "icon_props_backgroundColor_desc": {
+    "en": "Set icon's background color",
+    "ru": ""
+  },
+  "icon_props_flip": {
+    "en": "Flip",
+    "ru": "Отразить"
+  },
+  "icon_props_flip_desc": {
+    "en": "Set icon's flipping plane",
+    "ru": ""
+  },
+  "icon_props_flip_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "icon_props_flip_horizontal": {
+    "en": "Horizontally",
+    "ru": "По горизонтали"
+  },
+  "icon_props_flip_vertical": {
+    "en": "Vertically",
+    "ru": "По вертикали"
+  },
+  "icon_props_rotate": {
+    "en": "Rotate",
+    "ru": "Повернуть"
+  },
+  "icon_props_rotate_desc": {
+    "en": "Rotate icon by some degree",
+    "ru": ""
+  },
+  "icon_props_name": {
+    "en": "Name",
+    "ru": ""
+  },
+  "icon_props_name_desc": {
+    "en": "Name of the icon",
+    "ru": ""
+  },
+  "icon_props_name_chevron_right": {
+    "en": "Icon Chevron Right",
+    "ru": ""
+  },
+  "icon_props_name_chevron_left": {
+    "en": "Icon Chevron Left",
+    "ru": ""
+  }
+}

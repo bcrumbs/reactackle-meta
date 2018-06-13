@@ -1,0 +1,42 @@
+{
+  "name": {
+    "en": "Card",
+    "ru": "Карточка"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "size",
+    "ru": ""
+  },
+  "props_size_desc": {
+    "en": "Determines size of the card",
+    "ru": ""
+  },
+  "props_size_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "props_size_medium": {
+    "en": "Medium",
+    "ru": ""
+  },
+  "props_size_large": {
+    "en": "Large",
+    "ru": ""
+  },
+  "props_size_xlarge": {
+    "en": "Xlarge",
+    "ru": ""
+  },
+  "props_elevation": {
+    "en": "Elevation",
+    "ru": "Подъём"
+  },
+  "props_elevation_desc": {
+    "en": "Determines the shadow size. Min: 0 - no shadow",
+    "ru": ""
+  }
+}

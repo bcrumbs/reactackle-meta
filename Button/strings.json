@@ -1,0 +1,214 @@
+{
+  "name": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": "Состояние"
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": "Стиль"
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "prop_group_icon": {
+    "en": "Icon",
+    "ru": "Иконка"
+  },
+  "prop_group_link": {
+    "en": "Link",
+    "ru": "Ссылка"
+  },
+  "props_text": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "props_text_desc": {
+    "en": "Define button's main text",
+    "ru": ""
+  },
+  "props_text_default": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "props_alternateTitle": {
+    "en": "Alternate title",
+    "ru": ""
+  },
+  "props_alternateTitle_desc": {
+    "en": "Define button's alternate text for the user, if he/she for some reason cannot view the component",
+    "ru": ""
+  },
+  "props_subtitle": {
+    "en": "Subtitle",
+    "ru": ""
+  },
+  "props_subtitle_desc": {
+    "en": "Define button's subtitle",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "props_size_desc": {
+    "en": "Define button's size",
+    "ru": ""
+  },
+  "props_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "props_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "props_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "props_size_inline": {
+    "en": "Inline",
+    "ru": "Встроенная кнопка"
+  },
+  "props_narrow": {
+    "en": "Narrow",
+    "ru": ""
+  },
+  "props_narrow_desc": {
+    "en": "Narrow button has smaller horizontal paddings",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": "Цветовая схема"
+  },
+  "props_colorScheme_desc": {
+    "en": "Define button's color",
+    "ru": ""
+  },
+  "props_colorScheme_primary": {
+    "en": "Primary",
+    "ru": ""
+  },
+  "props_colorScheme_secondary": {
+    "en": "Secondary",
+    "ru": ""
+  },
+  "props_colorScheme_alert": {
+    "en": "Alert",
+    "ru": ""
+  },
+  "props_colorScheme_success": {
+    "en": "Success",
+    "ru": ""
+  },
+  "props_colorScheme_warning": {
+    "en": "Warning",
+    "ru": ""
+  },
+  "props_colorScheme_info": {
+    "en": "Info",
+    "ru": ""
+  },
+  "props_colorScheme_flat": {
+    "en": "Flat",
+    "ru": ""
+  },
+  "props_colorScheme_flatLight": {
+    "en": "Flat light",
+    "ru": ""
+  },
+  "props_colorScheme_white": {
+    "en": "White",
+    "ru": ""
+  },
+  "props_colorScheme_link": {
+    "en": "Link",
+    "ru": ""
+  },
+  "props_outlined": {
+    "en": "Outlined",
+    "ru": ""
+  },
+  "props_outlined_desc": {
+    "en": "Outlined button has border and a transparent background",
+    "ru": ""
+  },
+  "props_radius": {
+    "en": "Radius",
+    "ru": "Радиус"
+  },
+  "props_radius_desc": {
+    "en": "Define button's radius",
+    "ru": ""
+  },
+  "props_radius_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "props_radius_default": {
+    "en": "Default",
+    "ru": "По умолчанию"
+  },
+  "props_radius_rounded": {
+    "en": "Rounded",
+    "ru": "Скругленный"
+  },
+  "props_raised": {
+    "en": "Raised",
+    "ru": "Приподнятая"
+  },
+  "props_raised_desc": {
+    "en": "Raised button has a shadow",
+    "ru": ""
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": "Неактивна"
+  },
+  "props_disabled_desc": {
+    "en": "Set disable to true if interaction with this button isn't available to user",
+    "ru": ""
+  },
+  "props_iconPositionRight": {
+    "en": "Icon on the right",
+    "ru": "Иконка справа"
+  },
+  "props_iconPositionRight_desc": {
+    "en": "Swap icon and text position",
+    "ru": ""
+  },
+  "props_icon": {
+    "en": "Icon",
+    "ru": "Иконка"
+  },
+  "props_icon_desc": {
+    "en": "Define icon",
+    "ru": ""
+  },
+  "props_href": {
+    "en": "Link",
+    "ru": "Ссылка"
+  },
+  "props_href_desc": {
+    "en": "The URL to link to when the button is clicked",
+    "ru": ""
+  },
+  "props_onPress": {
+    "en": "Press",
+    "ru": ""
+  },
+  "props_onPress_desc": {
+    "en": "Specify function to call on Button press",
+    "ru": ""
+  }
+}

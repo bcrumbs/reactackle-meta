@@ -1,0 +1,37 @@
+{
+  "displayName": "Card",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "props": {
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "type": "oneOf",
+      "options": [
+        { "value": "default", "textKey": "props_size_default" },
+        { "value": "medium", "textKey": "props_size_medium" },
+        { "value": "large", "textKey": "props_size_large" },
+        { "value": "xlarge", "textKey": "props_size_xlarge" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      }
+    },
+    "elevation": {
+      "textKey": "props_elevation",
+      "descriptionTextKey": "props_elevation_desc",
+      "type": "int",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": 1
+        }
+      }
+    }
+  }
+}

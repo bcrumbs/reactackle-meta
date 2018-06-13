@@ -1,0 +1,22 @@
+{
+  "name": {
+    "en": "Text",
+    "ru": "Текст"
+  },
+  "description": {
+    "en": "Just text",
+    "ru": "Просто текст"
+  },
+  "props_text": {
+    "ru": "",
+    "en": "Text"
+  },
+  "props_text_desc": {
+    "ru": "",
+    "en": ""
+  },
+  "props_text_desc_default": {
+    "ru": "Текст",
+    "en": "Text"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "icon": {
+    "type": "shape",
+    "fields": {
+      "border": {
+        "textKey": "icon_props_border",
+        "descriptionTextKey": "icon_props_border_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "borderWidth": {
+        "textKey": "icon_props_borderWidth",
+        "descriptionTextKey": "icon_props_borderWidth_desc",
+        "type": "int",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": 0
+          }
+        }
+      },
+      "rounded": {
+        "textKey": "icon_props_rounded",
+        "descriptionTextKey": "icon_props_rounded_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "size": {
+        "textKey": "icon_props_size",
+        "descriptionTextKey": "icon_props_size_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "custom", "textKey": "icon_props_size_custom" },
+          { "value": "small", "textKey": "icon_props_size_small" },
+          { "value": "normal", "textKey": "icon_props_size_normal" },
+          { "value": "large", "textKey": "icon_props_size_large" },
+          { "value": "xlarge", "textKey": "icon_props_size_xlarge" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "normal"
+          }
+        }
+      },
+      "colorScheme": {
+        "textKey": "icon_props_colorScheme",
+        "descriptionTextKey": "icon_props_colorScheme_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "light", "textKey": "icon_props_colorScheme_light" },
+          { "value": "dark", "textKey": "icon_props_colorScheme_dark" },
+          { "value": "default", "textKey": "icon_props_colorScheme_default" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "default"
+          }
+        }
+      },
+      "color": {
+        "textKey": "icon_props_color",
+        "descriptionTextKey": "icon_props_color_desc",
+        "type": "string",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": ""
+          }
+        }
+      },
+      "backgroundColor": {
+        "textKey": "icon_props_backgroundColor",
+        "descriptionTextKey": "icon_props_backgroundColor_desc",
+        "type": "string",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": ""
+          }
+        }
+      },
+      "flip": {
+        "textKey": "icon_props_flip",
+        "descriptionTextKey": "icon_props_flip_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "none", "textKey": "icon_props_flip_none" },
+          { "value": "horizontal", "textKey": "icon_props_flip_horizontal" },
+          { "value": "vertical", "textKey": "icon_props_flip_vertical" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "none"
+          }
+        }
+      },
+      "rotate": {
+        "textKey": "icon_props_rotate",
+        "descriptionTextKey": "icon_props_rotate_desc",
+        "type": "int",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": 0
+          }
+        }
+      },
+      "name": {
+        "textKey": "icon_props_name",
+        "descriptionTextKey": "icon_props_name_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "chevron-left", "textKey": "icon_props_name_chevron_left" },
+          { "value": "chevron-right", "textKey": "icon_props_name_chevron_right" }
+        ],
+        "source": ["static"]
+      }
+    }
+  }
+}

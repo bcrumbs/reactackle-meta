@@ -1,0 +1,107 @@
+{
+  "displayName": "Header",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "header",
+  "props": {
+    "backgroundImage": {
+      "textKey": "props_backgroundImage",
+      "descriptionTextKey": "props_backgroundImage_desc",
+      "type": "string",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "backgroundColor": {
+      "textKey": "props_backgroundColor",
+      "descriptionTextKey": "props_backgroundColor_desc",
+      "type": "string",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "behavior": {
+      "textKey": "props_behavior",
+      "descriptionTextKey": "props_behavior_desc",
+      "type": "oneOf",
+      "group": "behavior",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "static"
+        }
+      },
+      "options": [
+        { "value": "static", "textKey": "props_behavior_static" },
+        { "value": "fixed", "textKey": "props_behavior_fixed" }
+      ]
+    },
+    "condenses": {
+      "textKey": "props_condenses",
+      "descriptionTextKey": "props_condenses_desc",
+      "type": "bool",
+      "group": "behavior",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "keepCondensedHeader": {
+      "textKey": "props_keepCondensedHeader",
+      "descriptionTextKey": "props_keepCondensedHeader_desc",
+      "type": "bool",
+      "group": "behavior",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "condensedHeaderHeight": {
+      "textKey": "props_condensedHeaderHeight",
+      "descriptionTextKey": "props_condensedHeaderHeight_desc",
+      "type": "int",
+      "group": "behavior",
+      "min": 0,
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": 0
+        }
+      }
+    },
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "type": "oneOf",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      },
+      "options": [
+        { "value": "default", "textKey": "props_size_default" },
+        { "value": "blank", "textKey": "props_size_blank" },
+        { "value": "dense", "textKey": "props_size_dense" }
+      ]
+    }
+  },
+  "propGroups": [
+    { "name": "behavior", "textKey": "prop_group_behavior" },
+    { "name": "style", "textKey": "prop_group_style" }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "name": {
+    "en": "Input with auto-completion",
+    "ru": "Текстовое поле с автодополнением"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_maxOptionsVisible": {
+    "en": "Maximum Options Visible",
+    "ru": ""
+  },
+  "props_maxOptionsVisible_desc": {
+    "en": "Specify maximum amount of options, visible at the same time without scrolling",
+    "ru": ""
+  },
+  "props_placeholder": {
+    "en": "Placeholder",
+    "ru": ""
+  },
+  "props_placeholder_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_type": {
+    "en": "Type",
+    "ru": ""
+  },
+  "props_type_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_type_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "props_type_password": {
+    "en": "Password",
+    "ru": ""
+  },
+  "props_type_email": {
+    "en": "Email",
+    "ru": ""
+  },
+  "props_type_tel": {
+    "en": "Phone number",
+    "ru": ""
+  },
+  "props_type_number": {
+    "en": "Number",
+    "ru": ""
+  },
+  "props_type_url": {
+    "en": "URL",
+    "ru": ""
+  },
+  "props_autoComplete": {
+    "en": "Autocompletion",
+    "ru": ""
+  },
+  "props_autoComplete_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_bordered": {
+    "en": "Bordered",
+    "ru": ""
+  },
+  "props_bordered_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_fullWidth": {
+    "en": "Full width",
+    "ru": ""
+  },
+  "props_fullWidth_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_dense": {
+    "en": "Dense",
+    "ru": ""
+  },
+  "props_dense_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_symbolLimit": {
+    "en": "Symbol limit",
+    "ru": ""
+  },
+  "props_symbolLimit_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_disabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_label": {
+    "en": "Label",
+    "ru": ""
+  },
+  "props_label_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_message": {
+    "en": "Message",
+    "ru": ""
+  },
+  "props_message_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_clearingIcon": {
+    "en": "Clearing icon",
+    "ru": ""
+  },
+  "props_clearingIcon_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_iconOuter": {
+    "en": "Outer icon",
+    "ru": ""
+  },
+  "props_iconOuter_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_iconInner": {
+    "en": "Inner icon",
+    "ru": ""
+  },
+  "props_iconInner_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition": {
+    "en": "Label position",
+    "ru": ""
+  },
+  "props_labelPosition_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition_top": {
+    "en": "Top",
+    "ru": ""
+  },
+  "props_labelPosition_side": {
+    "en": "Side",
+    "ru": ""
+  },
+  "props_slidingLabel": {
+    "en": "Sliding label",
+    "ru": ""
+  },
+  "props_slidingLabel_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_scrollOnFocus": {
+    "en": "Scroll on focus",
+    "ru": ""
+  },
+  "props_scrollOnFocus_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tooltip": {
+    "en": "Tooltip",
+    "ru": ""
+  },
+  "props_tooltip_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme_neutral": {
+    "en": "Neutral",
+    "ru": ""
+  },
+  "props_colorScheme_error": {
+    "en": "Error",
+    "ru": ""
+  },
+  "props_colorScheme_success": {
+    "en": "Success",
+    "ru": ""
+  },
+  "props_prefix": {
+    "en": "Prefix",
+    "ru": ""
+  },
+  "props_prefix_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_postfix": {
+    "en": "Postfix",
+    "ru": ""
+  },
+  "props_postfix_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_multiline": {
+    "en": "Multiline",
+    "ru": ""
+  },
+  "props_multiline_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_multilineRows": {
+    "en": "Multiline rows",
+    "ru": ""
+  },
+  "props_multilineRows_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_multilineRows_min": {
+    "en": "Min",
+    "ru": ""
+  },
+  "props_multilineRows_min_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_multilineRows_max": {
+    "en": "Max",
+    "ru": ""
+  },
+  "props_multilineRows_max_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange": {
+    "en": "Change",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Updates",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onFocus": {
+    "en": "Focus",
+    "ru": ""
+  },
+  "props_onFocus_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onBlur": {
+    "en": "Blur",
+    "ru": ""
+  },
+  "props_onBlur_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_value": {
+    "en": "Value",
+    "ru": ""
+  },
+  "state_value_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_focused": {
+    "en": "Focused",
+    "ru": ""
+  },
+  "state_focused_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_name": {
+    "en": "Icon name",
+    "ru": ""
+  },
+  "types_icon_name_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_src": {
+    "en": "URL",
+    "ru": ""
+  },
+  "types_icon_src_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_type": {
+    "en": "Icon type",
+    "ru": ""
+  },
+  "types_icon_type_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_type_fontawesome": {
+    "en": "Font Awesome",
+    "ru": ""
+  },
+  "types_icon_type_library": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "prop_group_state": {
+    "en": "State",
+    "ru": ""
+  },
+  "prop_group_data": {
+    "en": "Data",
+    "ru": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_icon": {
+    "en": "Icon",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  },
+  "prop_group_behavior": {
+    "en": "Behavior",
+    "ru": ""
+  },
+  "icon_props_border": {
+    "en": "Border",
+    "ru": "Обводка"
+  },
+  "icon_props_border_desc": {
+    "en": "Turns on/off icon's border",
+    "ru": ""
+  },
+  "icon_props_borderWidth": {
+    "en": "Border Width",
+    "ru": "Ширина обводки"
+  },
+  "icon_props_borderWidth_desc": {
+    "en": "Set icon's border width",
+    "ru": ""
+  },
+  "icon_props_rounded": {
+    "en": "Rounded",
+    "ru": "Скругление"
+  },
+  "icon_props_rounded_desc": {
+    "en": "Make icon rounded",
+    "ru": ""
+  },
+  "icon_props_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "icon_props_size_desc": {
+    "en": "Set icon size",
+    "ru": ""
+  },
+  "icon_props_size_custom": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "icon_props_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "icon_props_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "icon_props_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "icon_props_size_xlarge": {
+    "en": "XLarge",
+    "ru": "Очень большой"
+  },
+  "icon_props_colorScheme": {
+    "en": "Color scheme",
+    "ru": "Цветовая схема"
+  },
+  "icon_props_colorScheme_desc": {
+    "en": "Set icon's color scheme",
+    "ru": ""
+  },
+  "icon_props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "icon_props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "icon_props_colorScheme_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "icon_props_color": {
+    "en": "Color",
+    "ru": "Цвет"
+  },
+  "icon_props_color_desc": {
+    "en": "Set exact icon's color",
+    "ru": ""
+  },
+  "icon_props_backgroundColor": {
+    "en": "Background color",
+    "ru": "Цвет фона"
+  },
+  "icon_props_backgroundColor_desc": {
+    "en": "Set icon's background color",
+    "ru": ""
+  },
+  "icon_props_flip": {
+    "en": "Flip",
+    "ru": "Отразить"
+  },
+  "icon_props_flip_desc": {
+    "en": "Set icon's flipping plane",
+    "ru": ""
+  },
+  "icon_props_flip_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "icon_props_flip_horizontal": {
+    "en": "Horizontally",
+    "ru": "По горизонтали"
+  },
+  "icon_props_flip_vertical": {
+    "en": "Vertically",
+    "ru": "По вертикали"
+  },
+  "icon_props_rotate": {
+    "en": "Rotate",
+    "ru": "Повернуть"
+  },
+  "icon_props_rotate_desc": {
+    "en": "Rotate icon by some degree",
+    "ru": ""
+  },
+  "icon_props_name": {
+    "en": "Name",
+    "ru": ""
+  },
+  "icon_props_name_desc": {
+    "en": "Name of the icon",
+    "ru": ""
+  },
+  "icon_props_name_chevron_right": {
+    "en": "Icon Chevron Right",
+    "ru": ""
+  },
+  "icon_props_name_chevron_left": {
+    "en": "Icon Chevron Left",
+    "ru": ""
+  }
+}

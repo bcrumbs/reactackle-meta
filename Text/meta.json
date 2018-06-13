@@ -1,0 +1,21 @@
+{
+  "displayName": "Text",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "text",
+  "props": {
+    "text": {
+      "textKey": "props_text",
+      "descriptionTextKey": "props_text_desc",
+      "type": "string",
+      "source": ["static", "data", "state", "routeParams"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": "props_text_desc_default"
+        },
+        "data": {}
+      }
+    }
+  }
+}

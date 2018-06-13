@@ -1,0 +1,94 @@
+{
+  "name": {
+    "en": "Header",
+    "ru": "Заголовок"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_backgroundImage": {
+    "en": "Background image",
+    "ru": "Фоновое изображение"
+  },
+  "props_backgroundImage_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_backgroundColor": {
+    "en": "Background color",
+    "ru": "Цвет фона"
+  },
+  "props_backgroundColor_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_behavior": {
+    "en": "Behavior",
+    "ru": "Поведение"
+  },
+  "props_behavior_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_behavior_static": {
+    "en": "Static",
+    "ru": "Статичный"
+  },
+  "props_behavior_fixed": {
+    "en": "Fixed",
+    "ru": "Фиксированный"
+  },
+  "props_condenses": {
+    "en": "Condenses",
+    "ru": ""
+  },
+  "props_condenses_desc": {
+    "en": "If enabled, the header's height will condense to condensedHeaderHeight as the user scrolls down from the top of the content area.",
+    "ru": ""
+  },
+  "props_keepCondensedHeader": {
+    "en": "Keep condensed header",
+    "ru": ""
+  },
+  "props_keepCondensedHeader_desc": {
+    "en": "If enabled, the condensed header is always shown and does not move away.",
+    "ru": ""
+  },
+  "props_condensedHeaderHeight": {
+    "en": "Condensed header height",
+    "ru": ""
+  },
+  "props_condensedHeaderHeight_desc": {
+    "en": "The height of the header when it is condensed.",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": ""
+  },
+  "props_size_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_size_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "props_size_blank": {
+    "en": "Blank",
+    "ru": ""
+  },
+  "props_size_dense": {
+    "en": "Dense",
+    "ru": ""
+  },
+  "prop_group_behavior": {
+    "en": "Behavior",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  }
+}

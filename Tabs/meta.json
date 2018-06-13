@@ -1,0 +1,113 @@
+{
+  "displayName": "Tabs",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "navigation",
+  "props": {
+    "tabs": {
+      "textKey": "props_tabs",
+      "descriptionTextKey": "props_tabs_desc",
+      "type": "arrayOf",
+      "ofType": {
+        "type": "shape",
+        "fields": {
+          "text": {
+            "textKey": "props_tabs_text",
+            "descriptionTextKey": "props_tabs_text_desc",
+            "required": false,
+            "type": "string",
+            "source": ["static", "data", "state"],
+            "sourceConfigs": {
+              "static": {
+                "default": ""
+              }
+            }
+          },
+          "icon": {
+            "textKey": "props_tabs_icon",
+            "descriptionTextKey": "props_tabs_icon_desc",
+            "required": false,
+            "type": "component",
+            "source": ["designer"],
+            "sourceConfigs": {}
+          },
+          "disabled": {
+            "textKey": "props_tabs_disabled",
+            "descriptionTextKey": "props_tabs_disabled_desc",
+            "required": true,
+            "type": "bool",
+            "source": ["static", "data", "state"],
+            "sourceConfigs": {
+              "static": {
+                "default": false
+              }
+            }
+          },
+          "linkHref": {
+            "textKey": "props_tabs_linkHref",
+            "descriptionTextKey": "props_tabs_linkHref_desc",
+            "required": false,
+            "type": "string",
+            "source": ["static", "data", "state"],
+            "sourceConfigs": {
+              "static": {
+                "defaultTextKey": ""
+              }
+            }
+          }
+        },
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": { "disabled": false }
+          }
+        }
+      },
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": []
+        }
+      }
+    },
+    "colorScheme": {
+      "textKey": "props_colorScheme",
+      "descriptionTextKey": "props_colorScheme_desc",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "dark"
+        }
+      },
+      "options": [
+        { "value": "dark", "textKey": "props_colorScheme_dark" },
+        { "value": "light", "textKey": "props_colorScheme_light" }
+      ]
+    },
+    "onChange": {
+      "textKey": "props_onChange",
+      "descriptionTextKey": "props_onChange_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [
+            {
+              "textKey": "props_onChange_arg0",
+              "descriptionTextKey": "props_onChange_arg0_desc",
+              "type": "shape",
+              "notNull": true,
+              "fields": {
+                "value": {
+                  "type": "int"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

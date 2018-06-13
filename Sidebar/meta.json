@@ -1,0 +1,74 @@
+{
+  "displayName": "Sidebar",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "sidebar",
+  "props": {
+    "haveToggleButton": {
+      "textKey": "props_haveToggleButton",
+      "descriptionTextKey": "props_haveToggleButton_desc",
+      "type": "bool",
+      "group": "toggle",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "toggleButtonText": {
+      "textKey": "props_toggleButtonText",
+      "descriptionTextKey": "props_toggleButtonText_desc",
+      "type": "string",
+      "group": "toggle",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "defaultTextKey": "props_toggleButtonText_value"
+        }
+      }
+    },
+    "expanded": {
+      "textKey": "props_expanded",
+      "descriptionTextKey": "props_expanded_desc",
+      "type": "bool",
+      "group": "state",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "attachToRight": {
+      "textKey": "props_right",
+      "descriptionTextKey": "props_right_desc",
+      "type": "bool",
+      "group": "behavior",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "autoCollapsing": {
+      "textKey": "props_autoCollapsing",
+      "descriptionTextKey": "props_autoCollapsing_desc",
+      "type": "bool",
+      "group": "behavior",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "state", "textKey": "prop_group_state" },
+    { "name": "behavior", "textKey": "prop_group_behavior" },
+    { "name": "toggle", "textKey": "prop_group_toggle" }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "displayName": "Dialog",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "blocks",
+  "propGroups": [
+    { "name": "state", "textKey": "prop_group_state" },
+    { "name": "behavior", "textKey": "prop_group_behavior" },
+    { "name": "text", "textKey": "prop_group_text" },
+    { "name": "backdrop", "textKey": "prop_group_backdrop" },
+    { "name": "content", "textKey": "prop_group_content" },
+    { "name": "style", "textKey": "prop_group_style" }
+  ],
+  "props": {
+    "backdrop": {
+      "textKey": "props_backdrop",
+      "descriptionTextKey": "props_backdrop_desc",
+      "group": "backdrop",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "scrollable": {
+      "textKey": "props_scrollable",
+      "descriptionTextKey": "props_scrollable_desc",
+      "group": "behavior",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "open": {
+      "textKey": "props_open",
+      "descriptionTextKey": "props_open_desc",
+      "group": "state",
+      "type": "bool",
+      "source": ["static", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "haveCloseButton": {
+      "textKey": "props_haveCloseButton",
+      "descriptionTextKey": "props_haveCloseButton_desc",
+      "group": "content",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "closeOnEscape": {
+      "textKey": "props_closeOnEscape",
+      "descriptionTextKey": "props_closeOnEscape_desc",
+      "group": "behavior",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "closeOnBackdropClick": {
+      "textKey": "props_closeOnBackdropClick",
+      "descriptionTextKey": "props_closeOnBackdropClick_desc",
+      "group": "backdrop",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "title": {
+      "textKey": "props_title",
+      "descriptionTextKey": "props_title_desc",
+      "group": "text",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "subtitle": {
+      "textKey": "props_subtitle",
+      "descriptionTextKey": "props_subtitle_desc",
+      "group": "text",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "buttons": {
+      "textKey": "props_buttons",
+      "descriptionTextKey": "props_buttons_desc",
+      "group": "content",
+      "type": "arrayOf",
+      "ofType": {
+        "type": "button",
+        "source": ["static", "data"]
+      },
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": []
+        }
+      }
+    },
+    "buttonsLeft": {
+      "textKey": "props_buttonsLeft",
+      "descriptionTextKey": "props_buttonsLeft_desc",
+      "group": "content",
+      "type": "arrayOf",
+      "ofType": {
+        "type": "button",
+        "source": ["static", "data"]
+      },
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": []
+        }
+      }
+    },
+    "minWidth": {
+      "textKey": "props_minWidth",
+      "descriptionTextKey": "props_minWidth_desc",
+      "group": "style",
+      "type": "int",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": 0
+        }
+      }
+    },
+    "paddingSize": {
+      "textKey": "props_paddingSize",
+      "descriptionTextKey": "props_paddingSize_desc",
+      "group": "style",
+      "type": "oneOf",
+      "options": [
+        { "value": "default", "textKey": "props_paddingSize_default" },
+        { "value": "none", "textKey": "props_paddingSize_none" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      }
+    },
+    "fullWindowSize": {
+      "textKey": "props_fullWindowSize",
+      "descriptionTextKey": "props_fullWindowSize_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "transparentBg": {
+      "textKey": "props_transparentBg",
+      "descriptionTextKey": "props_transparentBg_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "dialogContentFlex": {
+      "textKey": "props_dialogContentFlex",
+      "descriptionTextKey": "props_dialogContentFlex_desc",
+      "group": "style",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "onEnterKeyPress": {
+      "textKey": "props_onEnterKeyPress",
+      "descriptionTextKey": "props_onEnterKeyPress_desc",
+      "type": "func",
+      "source": ["actions"]
+    },
+    "onClose": {
+      "textKey": "props_onClose",
+      "descriptionTextKey": "props_onClose_desc",
+      "type": "func",
+      "source": ["actions"]
+    }
+  }
+}

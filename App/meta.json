@@ -1,0 +1,49 @@
+{
+  "displayName": "App",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "composite",
+  "group": "app",
+  "props": {
+    "fixed": {
+      "textKey": "props_fixed",
+      "descriptionTextKey": "props_fixed_desc",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    }
+  },
+  "layouts": [
+    {
+      "textKey": "layout_0",
+      "descriptionTextKey": "layout_0_desc",
+      "regions": [
+        {
+          "component": "TopRegion",
+          "textKey": "region_top",
+          "descriptionTextKey": "region_top_desc",
+          "defaultEnabled": true,
+          "props": {}
+        },
+        {
+          "component": "MainRegion",
+          "textKey": "region_main",
+          "descriptionTextKey": "region_main_desc",
+          "defaultEnabled": true,
+          "props": {}
+        },
+        {
+          "component": "BottomRegion",
+          "textKey": "region_bottom",
+          "descriptionTextKey": "region_bottom_desc",
+          "defaultEnabled": true,
+          "props": {}
+        }
+      ]
+    }
+  ]
+}

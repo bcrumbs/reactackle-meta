@@ -1,0 +1,146 @@
+{
+  "name": {
+    "en": "Icon",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_border": {
+    "en": "Has border",
+    "ru": ""
+  },
+  "props_border_desc": {
+    "en": "Turns on/off icon's border",
+    "ru": ""
+  },
+  "props_borderWidth": {
+    "en": "Border Width",
+    "ru": ""
+  },
+  "props_borderWidth_desc": {
+    "en": "Set icon's border width",
+    "ru": ""
+  },
+  "props_rounded": {
+    "en": "Rounded",
+    "ru": ""
+  },
+  "props_rounded_desc": {
+    "en": "Makes icon rounded",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": ""
+  },
+  "props_size_desc": {
+    "en": "Set icon size",
+    "ru": ""
+  },
+  "props_size_custom": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "props_size_small": {
+    "en": "Small",
+    "ru": ""
+  },
+  "props_size_normal": {
+    "en": "Normal",
+    "ru": ""
+  },
+  "props_size_large": {
+    "en": "Large",
+    "ru": ""
+  },
+  "props_size_xlarge": {
+    "en": "X zLarge",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_desc": {
+    "en": "Set icon's color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "props_colorScheme_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "props_color": {
+    "en": "Color",
+    "ru": ""
+  },
+  "props_color_desc": {
+    "en": "Set exact icon's color",
+    "ru": ""
+  },
+  "props_backgroundColor": {
+    "en": "Background color",
+    "ru": ""
+  },
+  "props_backgroundColor_desc": {
+    "en": "Set icon's background color",
+    "ru": ""
+  },
+  "props_flip": {
+    "en": "Flip",
+    "ru": ""
+  },
+  "props_flip_desc": {
+    "en": "Set icon's flipping plane",
+    "ru": ""
+  },
+  "props_flip_none": {
+    "en": "None",
+    "ru": ""
+  },
+  "props_flip_horizontal": {
+    "en": "Horizontally",
+    "ru": ""
+  },
+  "props_flip_vertical": {
+    "en": "Vertically",
+    "ru": ""
+  },
+  "props_rotate": {
+    "en": "Rotate",
+    "ru": ""
+  },
+  "props_rotate_desc": {
+    "en": "Rotate icon by some degree",
+    "ru": ""
+  },
+  "props_src": {
+    "en": "Icon URL",
+    "ru": ""
+  },
+  "props_src_desc": {
+    "en": "Custom icon URL or Base64",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  },
+  "prop_group_transform": {
+    "en": "Transform",
+    "ru": ""
+  },
+  "prop_group_source": {
+    "en": "Source",
+    "ru": ""
+  }
+}

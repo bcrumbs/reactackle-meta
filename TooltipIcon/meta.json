@@ -1,0 +1,20 @@
+{
+  "displayName": "TooltipIcon",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "text",
+  "props": {
+    "text": {
+      "textKey": "props_text",
+      "descriptionTextKey": "props_text_desc",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    }
+  }
+}

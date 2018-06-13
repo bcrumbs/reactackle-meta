@@ -1,0 +1,305 @@
+{
+  "icon": {
+    "type": "shape",
+    "fields": {
+      "border": {
+        "textKey": "icon_props_border",
+        "descriptionTextKey": "icon_props_border_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "borderWidth": {
+        "textKey": "icon_props_borderWidth",
+        "descriptionTextKey": "icon_props_borderWidth_desc",
+        "type": "int",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": 0
+          }
+        }
+      },
+      "rounded": {
+        "textKey": "icon_props_rounded",
+        "descriptionTextKey": "icon_props_rounded_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "size": {
+        "textKey": "icon_props_size",
+        "descriptionTextKey": "icon_props_size_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "custom", "textKey": "icon_props_size_custom" },
+          { "value": "small", "textKey": "icon_props_size_small" },
+          { "value": "normal", "textKey": "icon_props_size_normal" },
+          { "value": "large", "textKey": "icon_props_size_large" },
+          { "value": "xlarge", "textKey": "icon_props_size_xlarge" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "normal"
+          }
+        }
+      },
+      "colorScheme": {
+        "textKey": "icon_props_colorScheme",
+        "descriptionTextKey": "icon_props_colorScheme_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "light", "textKey": "icon_props_colorScheme_light" },
+          { "value": "dark", "textKey": "icon_props_colorScheme_dark" },
+          { "value": "default", "textKey": "icon_props_colorScheme_default" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "default"
+          }
+        }
+      },
+      "color": {
+        "textKey": "icon_props_color",
+        "descriptionTextKey": "icon_props_color_desc",
+        "type": "string",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": ""
+          }
+        }
+      },
+      "backgroundColor": {
+        "textKey": "icon_props_backgroundColor",
+        "descriptionTextKey": "icon_props_backgroundColor_desc",
+        "type": "string",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": ""
+          }
+        }
+      },
+      "flip": {
+        "textKey": "icon_props_flip",
+        "descriptionTextKey": "icon_props_flip_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "none", "textKey": "icon_props_flip_none" },
+          { "value": "horizontal", "textKey": "icon_props_flip_horizontal" },
+          { "value": "vertical", "textKey": "icon_props_flip_vertical" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "none"
+          }
+        }
+      },
+      "rotate": {
+        "textKey": "icon_props_rotate",
+        "descriptionTextKey": "icon_props_rotate_desc",
+        "type": "int",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": 0
+          }
+        }
+      },
+      "name": {
+        "textKey": "icon_props_name",
+        "descriptionTextKey": "icon_props_name_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "chevron-left", "textKey": "icon_props_name_chevron_left" },
+          { "value": "chevron-right", "textKey": "icon_props_name_chevron_right" }
+        ],
+        "source": ["static"]
+      }
+    }
+  },
+  "button": {
+    "type": "shape",
+    "notNull": true,
+    "fields": {
+      "text": {
+        "textKey": "types_button_text",
+        "descriptionTextKey": "types_button_text_desc",
+        "type": "string",
+        "source": ["static", "data", "state"],
+        "sourceConfigs": {
+          "static": {
+            "defaultTextKey": "types_button_text_default"
+          }
+        }
+      },
+      "alternateTitle": {
+        "textKey": "types_button_alternateTitle",
+        "descriptionTextKey": "types_button_alternateTitle_desc",
+        "type": "string",
+        "source": ["static", "data", "state"],
+        "sourceConfigs": {
+          "static": {
+            "defaultTextKey": ""
+          }
+        }
+      },
+      "subtitle": {
+        "textKey": "types_button_subtitle",
+        "descriptionTextKey": "types_button_subtitle_desc",
+        "type": "string",
+        "source": ["static", "data", "state"],
+        "sourceConfigs": {
+          "static": {
+            "defaultTextKey": ""
+          }
+        }
+      },
+      "size": {
+        "textKey": "types_button_size",
+        "descriptionTextKey": "types_button_size_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "normal", "textKey": "types_button_size_normal" },
+          { "value": "small", "textKey": "types_button_size_small" },
+          { "value": "large", "textKey": "types_button_size_large" },
+          { "value": "inline", "textKey": "types_button_size_inline" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "normal"
+          }
+        }
+      },
+      "narrow": {
+        "textKey": "types_button_narrow",
+        "descriptionTextKey": "types_button_narrow_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "colorScheme": {
+        "textKey": "types_button_colorScheme",
+        "descriptionTextKey": "types_button_colorScheme_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "primary", "textKey": "types_button_colorScheme_primary" },
+          { "value": "secondary", "textKey": "types_button_colorScheme_secondary" },
+          { "value": "alert", "textKey": "types_button_colorScheme_alert" },
+          { "value": "success", "textKey": "types_button_colorScheme_success" },
+          { "value": "warning", "textKey": "types_button_colorScheme_warning" },
+          { "value": "info", "textKey": "types_button_colorScheme_info" },
+          { "value": "flat", "textKey": "types_button_colorScheme_flat" },
+          { "value": "flatLight", "textKey": "types_button_colorScheme_flatLight" },
+          { "value": "white", "textKey": "types_button_colorScheme_white" },
+          { "value": "link", "textKey": "types_button_colorScheme_link" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "flat"
+          }
+        }
+      },
+      "outlined": {
+        "textKey": "types_button_outlined",
+        "descriptionTextKey": "types_button_outlined_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "radius": {
+        "textKey": "types_button_radius",
+        "descriptionTextKey": "types_button_radius_desc",
+        "type": "oneOf",
+        "options": [
+          { "value": "none", "textKey": "types_button_radius_none" },
+          { "value": "default", "textKey": "types_button_radius_default" },
+          { "value": "rounded", "textKey": "types_button_radius_rounded" }
+        ],
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": "default"
+          }
+        }
+      },
+      "raised": {
+        "textKey": "types_button_raised",
+        "descriptionTextKey": "types_button_raised_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "disabled": {
+        "textKey": "types_button_disabled",
+        "descriptionTextKey": "types_button_disabled_desc",
+        "type": "bool",
+        "source": ["static", "data", "state"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "iconPositionRight": {
+        "textKey": "types_button_iconPositionRight",
+        "descriptionTextKey": "types_button_iconPositionRight_desc",
+        "type": "bool",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": false
+          }
+        }
+      },
+      "icon": {
+        "textKey": "types_button_icon",
+        "descriptionTextKey": "types_button_icon_desc",
+        "type": "icon",
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": {}
+          }
+        }
+      },
+      "onPress": {
+        "textKey": "types_button_onPress",
+        "descriptionTextKey": "types_button_onPress_desc",
+        "type": "func",
+        "source": ["actions"],
+        "sourceConfigs": {
+          "actions": {
+            "args": []
+          }
+        }
+      }
+    }
+  }
+}

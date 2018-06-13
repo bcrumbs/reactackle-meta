@@ -1,0 +1,26 @@
+{
+  "name": {
+    "en": "Form",
+    "ru": "Форма"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onSubmit": {
+    "en": "Submit",
+    "ru": "Отправка формы"
+  },
+  "props_onSubmit_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_errorMessage": {
+    "en": "Error message",
+    "ru": ""
+  },
+  "props_errorMessage_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

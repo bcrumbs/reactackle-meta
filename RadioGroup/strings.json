@@ -1,0 +1,74 @@
+{
+  "name": {
+    "en": "Radio group",
+    "ru": "Группа радио-кнопок"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_defaultValue": {
+    "en": "Default value",
+    "ru": "Значение по умолчанию"
+  },
+  "props_defaultValue_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_options": {
+    "en": "Options",
+    "ru": "Варианты"
+  },
+  "props_options_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_options_value": {
+    "ru": "Value",
+    "en": "Значение"
+  },
+  "props_options_value_desc": {
+    "ru": "",
+    "en": ""
+  },
+  "props_options_text": {
+    "ru": "Label",
+    "en": "Текст"
+  },
+  "props_options_text_desc": {
+    "ru": "",
+    "en": ""
+  },
+  "props_options_disabled": {
+    "ru": "Disabled",
+    "en": "Неактивный вариант"
+  },
+  "props_options_disabled_desc": {
+    "ru": "",
+    "en": ""
+  },
+  "props_onChange": {
+    "en": "Change",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Updates",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_value": {
+    "en": "Value",
+    "ru": "Значение"
+  },
+  "state_value_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

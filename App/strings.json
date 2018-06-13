@@ -1,0 +1,50 @@
+{
+  "name": {
+    "en": "Application",
+    "ru": "Приложение"
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_fixed": {
+    "en": "Fixed",
+    "ru": ""
+  },
+  "props_fixed_desc": {
+    "en": "Set App height to be equal to the window height, so the Content component will become scrollable.",
+    "ru": ""
+  },
+  "layout_0": {
+    "en": "",
+    "ru": ""
+  },
+  "layout_0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_top": {
+    "en": "Top",
+    "ru": ""
+  },
+  "region_top_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "region_main": {
+    "en": "Main",
+    "ru": ""
+  },
+  "region_main_desc": {
+    "en": "Occupies all spare space",
+    "ru": ""
+  },
+  "region_bottom": {
+    "en": "Bottom",
+    "ru": ""
+  },
+  "region_bottom_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

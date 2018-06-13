@@ -1,0 +1,82 @@
+{
+  "name": {
+    "en": "Toggle Button",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_defaultChecked": {
+    "en": "Initially checked",
+    "ru": ""
+  },
+  "props_defaultChecked_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_disabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_disabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_label": {
+    "en": "Label",
+    "ru": ""
+  },
+  "props_label_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition": {
+    "en": "Label Position",
+    "ru": ""
+  },
+  "props_labelPosition_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_labelPosition_left": {
+    "en": "Left",
+    "ru": ""
+  },
+  "props_labelPosition_right": {
+    "en": "Right",
+    "ru": ""
+  },
+  "props_tooltip": {
+    "en": "Tooltip",
+    "ru": ""
+  },
+  "props_tooltip_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange": {
+    "en": "Check",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Updates",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "state_checked": {
+    "en": "Enabled",
+    "ru": ""
+  },
+  "state_checked_desc": {
+    "en": "",
+    "ru": ""
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "displayName": "ToggleButton",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "controls",
+  "props": {
+    "defaultChecked": {
+      "textKey": "props_defaultChecked",
+      "descriptionTextKey": "props_defaultChecked_desc",
+      "type": "bool",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "disabled": {
+      "textKey": "props_disabled",
+      "descriptionTextKey": "props_disabled_desc",
+      "type": "bool",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "label": {
+      "textKey": "props_label",
+      "descriptionTextKey": "props_label_desc",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "labelPosition": {
+      "textKey": "props_labelPosition",
+      "descriptionTextKey": "props_labelPosition_desc",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "left"
+        }
+      },
+      "options": [
+        { "value": "left", "textKey": "props_labelPosition_left" },
+        { "value": "right", "textKey": "props_labelPosition_right" }
+      ]
+    },
+    "tooltip": {
+      "textKey": "props_tooltip",
+      "descriptionTextKey": "props_tooltip_desc",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "onChange": {
+      "textKey": "props_onChange",
+      "descriptionTextKey": "props_onChange_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [
+            {
+              "textKey": "props_onChange_arg0",
+              "descriptionTextKey": "props_onChange_arg0_desc",
+              "type": "shape",
+              "notNull": true,
+              "fields": {
+                "value": {
+                  "type": "bool"
+                }
+              }
+            }
+          ],
+          "updateState": {
+            "checked": {
+              "source": "arg",
+              "sourceData": {
+                "arg": 0,
+                "path": ["value"]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "state": {
+    "checked": {
+      "textKey": "state_checked",
+      "descriptionTextKey": "state_checked_desc",
+      "type": "bool",
+      "initialValue": {
+        "source": "prop",
+        "sourceData": {
+          "propName": "defaultChecked"
+        }
+      }
+    }
+  }
+}

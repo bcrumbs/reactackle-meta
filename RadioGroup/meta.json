@@ -1,0 +1,124 @@
+{
+  "displayName": "RadioGroup",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "atomic",
+  "group": "controls",
+  "props": {
+    "defaultValue": {
+      "textKey": "props_defaultValue",
+      "descriptionTextKey": "props_defaultValue_desc",
+      "type": "string",
+      "source": ["static", "data"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "options": {
+      "textKey": "props_options",
+      "descriptionTextKey": "props_options_desc",
+      "type": "arrayOf",
+      "ofType": {
+        "type": "shape",
+        "notNull": true,
+        "fields": {
+          "value": {
+            "textKey": "props_options_value",
+            "descriptionTextKey": "props_options_value_desc",
+            "required": true,
+            "type": "string",
+            "source": ["static", "data", "state"],
+            "sourceConfigs": {
+              "static": {
+                "default": ""
+              }
+            }
+          },
+          "text": {
+            "textKey": "props_options_text",
+            "descriptionTextKey": "props_options_text_desc",
+            "required": true,
+            "type": "string",
+            "source": ["static", "data", "state"],
+            "sourceConfigs": {
+              "static": {
+                "default": ""
+              }
+            }
+          },
+          "disabled": {
+            "textKey": "props_options_disabled",
+            "descriptionTextKey": "props_options_disabled_desc",
+            "required": true,
+            "type": "bool",
+            "source": ["static"],
+            "sourceConfigs": {
+              "static": {
+                "default": false
+              }
+            }
+          }
+        },
+        "source": ["static"],
+        "sourceConfigs": {
+          "static": {
+            "default": { "value": "", "text": "", "disabled": false }
+          }
+        }
+      },
+      "source": ["static", "data"],
+      "sourceConfigs": {
+        "static": {
+          "default": []
+        }
+      }
+    },
+    "onChange": {
+      "textKey": "props_onChange",
+      "descriptionTextKey": "props_onChange_desc",
+      "type": "func",
+      "source": ["actions"],
+      "sourceConfigs": {
+        "actions": {
+          "args": [
+            {
+              "textKey": "props_onChange_arg0",
+              "descriptionTextKey": "props_onChange_arg0_desc",
+              "type": "shape",
+              "notNull": true,
+              "fields": {
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "updateState": {
+            "value": {
+              "source": "arg",
+              "sourceData": {
+                "arg": 0,
+                "path": ["value"]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "state": {
+    "value": {
+      "textKey": "state_value",
+      "descriptionTextKey": "state_value_desc",
+      "type": "string",
+      "initialValue": {
+        "source": "prop",
+        "sourceData": {
+          "propName": "defaultValue"
+        }
+      }
+    }
+  }
+}

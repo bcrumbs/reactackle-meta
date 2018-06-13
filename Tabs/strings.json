@@ -1,0 +1,246 @@
+{
+  "name": {
+    "en": "Tabs",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tabs": {
+    "en": "Tabs",
+    "ru": ""
+  },
+  "props_tabs_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tabs_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "props_tabs_text_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tabs_icon": {
+    "en": "Icon",
+    "ru": ""
+  },
+  "props_tabs_icon_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tabs_disabled": {
+    "en": "Disabled",
+    "ru": ""
+  },
+  "props_tabs_disabled_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_tabs_linkHref": {
+    "en": "Link to",
+    "ru": ""
+  },
+  "props_tabs_linkHref_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "props_onChange": {
+    "en": "Active tab changed",
+    "ru": ""
+  },
+  "props_onChange_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_onChange_arg0": {
+    "en": "Changes",
+    "ru": ""
+  },
+  "props_onChange_arg0_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_name": {
+    "en": "Icon name",
+    "ru": ""
+  },
+  "types_icon_name_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_src": {
+    "en": "URL",
+    "ru": ""
+  },
+  "types_icon_src_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_type": {
+    "en": "Icon type",
+    "ru": ""
+  },
+  "types_icon_type_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "types_icon_type_fontawesome": {
+    "en": "Font Awesome",
+    "ru": ""
+  },
+  "types_icon_type_library": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "icon_props_border": {
+    "en": "Border",
+    "ru": "Обводка"
+  },
+  "icon_props_border_desc": {
+    "en": "Turns on/off icon's border",
+    "ru": ""
+  },
+  "icon_props_borderWidth": {
+    "en": "Border Width",
+    "ru": "Ширина обводки"
+  },
+  "icon_props_borderWidth_desc": {
+    "en": "Set icon's border width",
+    "ru": ""
+  },
+  "icon_props_rounded": {
+    "en": "Rounded",
+    "ru": "Скругление"
+  },
+  "icon_props_rounded_desc": {
+    "en": "Make icon rounded",
+    "ru": ""
+  },
+  "icon_props_size": {
+    "en": "Size",
+    "ru": "Размер"
+  },
+  "icon_props_size_desc": {
+    "en": "Set icon size",
+    "ru": ""
+  },
+  "icon_props_size_custom": {
+    "en": "Custom",
+    "ru": ""
+  },
+  "icon_props_size_small": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "icon_props_size_normal": {
+    "en": "Normal",
+    "ru": "Нормальный"
+  },
+  "icon_props_size_large": {
+    "en": "Large",
+    "ru": "Большой"
+  },
+  "icon_props_size_xlarge": {
+    "en": "XLarge",
+    "ru": "Очень большой"
+  },
+  "icon_props_colorScheme": {
+    "en": "Color scheme",
+    "ru": "Цветовая схема"
+  },
+  "icon_props_colorScheme_desc": {
+    "en": "Set icon's color scheme",
+    "ru": ""
+  },
+  "icon_props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "icon_props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "icon_props_colorScheme_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "icon_props_color": {
+    "en": "Color",
+    "ru": "Цвет"
+  },
+  "icon_props_color_desc": {
+    "en": "Set exact icon's color",
+    "ru": ""
+  },
+  "icon_props_backgroundColor": {
+    "en": "Background color",
+    "ru": "Цвет фона"
+  },
+  "icon_props_backgroundColor_desc": {
+    "en": "Set icon's background color",
+    "ru": ""
+  },
+  "icon_props_flip": {
+    "en": "Flip",
+    "ru": "Отразить"
+  },
+  "icon_props_flip_desc": {
+    "en": "Set icon's flipping plane",
+    "ru": ""
+  },
+  "icon_props_flip_none": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "icon_props_flip_horizontal": {
+    "en": "Horizontally",
+    "ru": "По горизонтали"
+  },
+  "icon_props_flip_vertical": {
+    "en": "Vertically",
+    "ru": "По вертикали"
+  },
+  "icon_props_rotate": {
+    "en": "Rotate",
+    "ru": "Повернуть"
+  },
+  "icon_props_rotate_desc": {
+    "en": "Rotate icon by some degree",
+    "ru": ""
+  },
+  "icon_props_name": {
+    "en": "Name",
+    "ru": ""
+  },
+  "icon_props_name_desc": {
+    "en": "Name of the icon",
+    "ru": ""
+  },
+  "icon_props_name_chevron_right": {
+    "en": "Icon Chevron Right",
+    "ru": ""
+  },
+  "icon_props_name_chevron_left": {
+    "en": "Icon Chevron Left",
+    "ru": ""
+  }
+}

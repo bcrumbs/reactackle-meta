@@ -1,0 +1,26 @@
+{
+  "displayName": "Form",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "blocks",
+  "props": {
+    "onSubmit": {
+      "textKey": "props_onSubmit",
+      "descriptionTextKey": "props_onSubmit_desc",
+      "type": "func",
+      "source": ["actions"]
+    },
+    "errorMessage": {
+      "textKey": "props_errorMessage",
+      "descriptionTextKey": "props_errorMessage_desc",
+      "type": "string",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    }
+  }
+}
