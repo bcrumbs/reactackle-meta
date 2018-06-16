@@ -1,0 +1,7 @@
+{
+  "displayName": "MainRegion",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "hidden": true
+}

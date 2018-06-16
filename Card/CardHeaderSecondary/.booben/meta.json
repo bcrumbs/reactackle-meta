@@ -1,0 +1,58 @@
+{
+  "displayName": "CardHeaderSecondary",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "props": {
+    "title": {
+      "textKey": "props_title",
+      "descriptionTextKey": "props_title_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "subtitle": {
+      "textKey": "props_subtitle",
+      "descriptionTextKey": "props_subtitle_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "image": {
+      "textKey": "props_image",
+      "descriptionTextKey": "props_image_desc",
+      "type": "string",
+      "group": "image",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "text", "textKey": "prop_group_text" },
+    { "name": "image", "textKey": "prop_group_image" }
+  ],
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "CardAreaMain" },
+        { "component": "CardAreaSide" },
+        { "component": "CardMedia" }
+      ]
+    }
+  }
+}

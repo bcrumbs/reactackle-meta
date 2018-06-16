@@ -1,0 +1,42 @@
+{
+  "name": {
+    "en": "Card Header Secondary",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_title": {
+    "en": "Title",
+    "ru": ""
+  },
+  "props_title_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_subtitle": {
+    "en": "Subtitle",
+    "ru": ""
+  },
+  "props_subtitle_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_image": {
+    "en": "Image",
+    "ru": ""
+  },
+  "props_image_desc": {
+    "en": "Set header image",
+    "ru": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_image": {
+    "en": "Image",
+    "ru": ""
+  }
+}

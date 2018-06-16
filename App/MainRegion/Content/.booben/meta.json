@@ -1,0 +1,14 @@
+{
+  "displayName": "Content",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "app",
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "MainRegion", "maxNum": 1 }
+      ]
+    }
+  }
+}

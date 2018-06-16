@@ -1,0 +1,94 @@
+{
+  "name": {
+    "en": "Header region",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_spread": {
+    "en": "Spread",
+    "ru": ""
+  },
+  "props_spread_desc": {
+    "en": "Fill all available space",
+    "ru": ""
+  },
+  "props_horizontalAlign": {
+    "en": "Horizontal alignment",
+    "ru": ""
+  },
+  "props_horizontalAlign_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_horizontalAlign_start": {
+    "en": "Start",
+    "ru": ""
+  },
+  "props_horizontalAlign_end": {
+    "en": "end",
+    "ru": ""
+  },
+  "props_horizontalAlign_center": {
+    "en": "Center",
+    "ru": ""
+  },
+  "props_horizontalAlign_space-between": {
+    "en": "Space between",
+    "ru": ""
+  },
+  "props_horizontalAlign_space-around": {
+    "en": "Space around",
+    "ru": ""
+  },
+  "props_verticalAlign": {
+    "en": "Vertical alignment",
+    "ru": ""
+  },
+  "props_verticalAlign_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_verticalAlign_stretch": {
+    "en": "Stretch",
+    "ru": ""
+  },
+  "props_verticalAlign_center": {
+    "en": "Center",
+    "ru": ""
+  },
+  "props_verticalAlign_start": {
+    "en": "Start",
+    "ru": ""
+  },
+  "props_verticalAlign_end": {
+    "en": "End",
+    "ru": ""
+  },
+  "props_verticalAlign_baseline": {
+    "en": "Baseline",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": ""
+  },
+  "props_size_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_size_blank": {
+    "en": "Blank",
+    "ru": ""
+  },
+  "props_size_dense": {
+    "en": "Dense",
+    "ru": ""
+  },
+  "props_size_default": {
+    "en": "Default",
+    "ru": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "displayName": "SidebarRegion",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "sidebar",
+  "props": {
+    "spread": {
+      "textKey": "props_spread",
+      "descriptionTextKey": "props_spread_desc",
+      "type": "bool",
+      "source": [
+        "static"
+      ],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "scrollable": {
+      "textKey": "props_scrollable",
+      "descriptionTextKey": "props_scrollable_desc",
+      "type": "bool",
+      "source": [
+        "static"
+      ],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "bordered": {
+      "textKey": "props_bordered",
+      "descriptionTextKey": "props_bordered_desc",
+      "type": "bool",
+      "source": [
+        "static"
+      ],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "scrollableMinHeight": {
+      "textKey": "props_scrollableMinHeight",
+      "descriptionTextKey": "props_scrollableMinHeight_desc",
+      "type": "int",
+      "source": [
+        "static"
+      ],
+      "sourceConfigs": {
+        "static": {
+          "default": 200
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "displayName": "HeaderTitle",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "header",
+  "props": {
+    "colorScheme": {
+      "textKey": "props_colorScheme",
+      "descriptionTextKey": "props_colorScheme_desc",
+      "type": "oneOf",
+      "options": [
+        { "value": "light", "textKey": "props_colorScheme_light" },
+        { "value": "dark", "textKey": "props_colorScheme_dark" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "light"
+        }
+      }
+    },
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "type": "oneOf",
+      "options": [
+        { "value": "default", "textKey": "props_size_default" },
+        { "value": "blank", "textKey": "props_size_blank" },
+        { "value": "dense", "textKey": "props_size_dense" }
+      ],
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      }
+    }
+  },
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "Header" },
+        { "component": "HeaderRegion" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "displayName": "CardActions",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "CardActionsMain" },
+        { "component": "CardActionsSide" }
+      ]
+    }
+  }
+}

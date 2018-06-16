@@ -1,0 +1,46 @@
+{
+  "name": {
+    "en": "Header title",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme": {
+    "en": "Color scheme",
+    "ru": ""
+  },
+  "props_colorScheme_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_colorScheme_light": {
+    "en": "Light",
+    "ru": ""
+  },
+  "props_colorScheme_dark": {
+    "en": "Dark",
+    "ru": ""
+  },
+  "props_size": {
+    "en": "Size",
+    "ru": ""
+  },
+  "props_size_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_size_default": {
+    "en": "Default",
+    "ru": ""
+  },
+  "props_size_blank": {
+    "en": "Blank",
+    "ru": ""
+  },
+  "props_size_dense": {
+    "en": "Dense",
+    "ru": ""
+  }
+}

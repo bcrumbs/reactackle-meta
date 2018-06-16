@@ -1,0 +1,79 @@
+{
+  "displayName": "HeaderRegion",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "header",
+  "props": {
+    "spread": {
+      "textKey": "props_spread",
+      "descriptionTextKey": "props_spread_desc",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "horizontalAlign": {
+      "textKey": "props_horizontalAlign",
+      "descriptionTextKey": "props_horizontalAlign_desc",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "start"
+        }
+      },
+      "options": [
+        { "value": "start", "textKey": "props_horizontalAlign_start"},
+        { "value": "end", "textKey": "props_horizontalAlign_end"},
+        { "value": "center", "textKey": "props_horizontalAlign_center"},
+        { "value": "space-between", "textKey": "props_horizontalAlign_space-between"},
+        { "value": "space-around", "textKey": "props_horizontalAlign_space-around"}
+      ]
+    },
+    "verticalAlign": {
+      "textKey": "props_verticalAlign",
+      "descriptionTextKey": "props_verticalAlign_desc",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "stretch"
+        }
+      },
+      "options": [
+        { "value": "stretch", "textKey": "props_verticalAlign_stretch"},
+        { "value": "center", "textKey": "props_verticalAlign_center"},
+        { "value": "start", "textKey": "props_verticalAlign_start"},
+        { "value": "end", "textKey": "props_verticalAlign_end"},
+        { "value": "baseline", "textKey": "props_verticalAlign_baseline"}
+      ]
+    },
+    "size": {
+      "textKey": "props_size",
+      "descriptionTextKey": "props_size_desc",
+      "type": "oneOf",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": "default"
+        }
+      },
+      "options": [
+        { "value": "blank", "textKey": "props_size_blank"},
+        { "value": "dense", "textKey": "props_size_dense"},
+        { "value": "default", "textKey": "props_size_default"}
+      ]
+    }
+  },
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "Header" }
+      ]
+    }
+  }
+}

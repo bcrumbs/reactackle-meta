@@ -1,0 +1,7 @@
+{
+  "displayName": "FormItem",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "blocks"
+}

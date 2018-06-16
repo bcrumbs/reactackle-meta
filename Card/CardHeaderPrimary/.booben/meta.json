@@ -1,0 +1,70 @@
+{
+  "displayName": "CardHeaderPrimary",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "props": {
+    "first": {
+      "textKey": "props_first",
+      "descriptionTextKey": "props_first_desc",
+      "type": "bool",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "last": {
+      "textKey": "props_last",
+      "descriptionTextKey": "props_last_desc",
+      "type": "bool",
+      "group": "style",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "title": {
+      "textKey": "props_title",
+      "descriptionTextKey": "props_title_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    },
+    "subtitle": {
+      "textKey": "props_subtitle",
+      "descriptionTextKey": "props_subtitle_desc",
+      "type": "string",
+      "group": "text",
+      "source": ["static", "data", "state"],
+      "sourceConfigs": {
+        "static": {
+          "default": ""
+        }
+      }
+    }
+  },
+  "propGroups": [
+    { "name": "text", "textKey": "prop_group_text" },
+    { "name": "style", "textKey": "prop_group_style" }
+  ],
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "CardAreaMain" },
+        { "component": "CardAreaSide" },
+        { "component": "CardMedia" }
+      ]
+    }
+  }
+}

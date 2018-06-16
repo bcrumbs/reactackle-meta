@@ -1,0 +1,42 @@
+{
+  "name": {
+    "en": "Sidebar region",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_spread": {
+    "en": "Spread",
+    "ru": ""
+  },
+  "props_spread_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_scrollable": {
+    "en": "Scrollable",
+    "ru": ""
+  },
+  "props_scrollable_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_bordered": {
+    "en": "Bordered",
+    "ru": ""
+  },
+  "props_bordered_desc": {
+    "en": "",
+    "ru": ""
+  },
+  "props_scrollableMinHeight": {
+    "en": "Min height",
+    "ru": ""
+  },
+  "props_scrollableMinHeight_desc": {
+    "en": "If region is scrollable, it requires some minHeight to be set to work properly",
+    "ru": ""
+  }
+}

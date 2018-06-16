@@ -1,0 +1,40 @@
+{
+  "displayName": "CardContent",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "props": {
+    "first": {
+      "textKey": "props_first",
+      "descriptionTextKey": "props_first_desc",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    },
+    "last": {
+      "textKey": "props_last",
+      "descriptionTextKey": "props_last_desc",
+      "type": "bool",
+      "source": ["static"],
+      "sourceConfigs": {
+        "static": {
+          "default": false
+        }
+      }
+    }
+  },
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "CardAreaMain" },
+        { "component": "CardAreaSide" },
+        { "component": "CardMedia" }
+      ]
+    }
+  }
+}

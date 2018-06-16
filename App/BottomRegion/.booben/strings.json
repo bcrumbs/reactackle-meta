@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "App - Bottom region",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_fixed": {
+    "en": "Fixed",
+    "ru": ""
+  },
+  "props_fixed_desc": {
+    "en": "Stays fixed on screen (always visible)",
+    "ru": ""
+  }
+}

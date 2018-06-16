@@ -1,0 +1,15 @@
+{
+  "displayName": "CardMedia",
+  "textKey": "name",
+  "descriptionTextKey": "description",
+  "kind": "container",
+  "group": "card",
+  "placement": {
+    "inside": {
+      "include": [
+        { "component": "CardAreaMain" },
+        { "component": "CardAreaSide" }
+      ]
+    }
+  }
+}

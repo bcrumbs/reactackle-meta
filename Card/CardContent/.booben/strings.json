@@ -1,0 +1,26 @@
+{
+  "name": {
+    "en": "Card Content",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_first": {
+    "en": "First",
+    "ru": ""
+  },
+  "props_first_desc": {
+    "en": "Adds additional top padding",
+    "ru": ""
+  },
+  "props_last": {
+    "en": "Last",
+    "ru": ""
+  },
+  "props_last_desc": {
+    "en": "Adds additional bottom padding",
+    "ru": ""
+  }
+}

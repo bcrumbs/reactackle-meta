@@ -1,0 +1,50 @@
+{
+  "name": {
+    "en": "Card Header Primary",
+    "ru": ""
+  },
+  "description": {
+    "en": "",
+    "ru": ""
+  },
+  "props_first": {
+    "en": "First",
+    "ru": ""
+  },
+  "props_first_desc": {
+    "en": "Adds additional top padding",
+    "ru": ""
+  },
+  "props_last": {
+    "en": "Last",
+    "ru": ""
+  },
+  "props_last_desc": {
+    "en": "Adds additional bottom padding",
+    "ru": ""
+  },
+  "props_title": {
+    "en": "Title",
+    "ru": ""
+  },
+  "props_title_desc": {
+    "en": "Define title",
+    "ru": ""
+  },
+  "props_subtitle": {
+    "en": "Subtitle",
+    "ru": ""
+  },
+  "props_subtitle_desc": {
+    "en": "Define subtitle",
+    "ru": ""
+  },
+  "prop_group_text": {
+    "en": "Text",
+    "ru": ""
+  },
+  "prop_group_style": {
+    "en": "Style",
+    "ru": ""
+  }
+}
