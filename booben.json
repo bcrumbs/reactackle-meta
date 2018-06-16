@@ -17,15 +17,6 @@
         }
       }
     ],
-    "\\.scss$": [
-      "style-loader",
-      "css-loader",
-      "sass-loader"
-    ],
-    "\\.css$": [
-      "style-loader",
-      "css-loader"
-    ],
     "\\.(jpe?g|png|gif|svg)$": [
       {
         "loader": "file-loader",
@@ -57,7 +48,7 @@
       "file-loader"
     ]
   },
-  "import": ["reactackle.scss"],
+  "import": [],
   "componentGroups": {
     "app": {
       "textKey": "group_app",
