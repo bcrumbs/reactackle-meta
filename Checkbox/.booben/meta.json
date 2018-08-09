@@ -108,9 +108,9 @@
       "descriptionTextKey": "state_checked_desc",
       "type": "bool",
       "initialValue": {
-        "source": "prop",
+        "source": "const",
         "sourceData": {
-          "propName": "defaultChecked"
+          "value": false
         }
       }
     }
