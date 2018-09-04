@@ -10,7 +10,7 @@
   "loaders": {
     "\\.jsx?$": [
       {
-        "loader": "babel-loader",
+        "loader": "babel-loader@7.1.5",
         "options": {
           "presets": ["es2015", "react"],
           "plugins": ["transform-object-rest-spread", "styled-components"]
